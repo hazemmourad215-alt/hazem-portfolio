@@ -4,7 +4,8 @@ import {
   Copy, Check, ArrowUpRight, Terminal, MapPin, Download, Clock,
   Phone
 } from 'lucide-react';
-import { personalInfo, stats, skillCategories, projects } from './data';
+import { personalInfo, stats, skillCategories, projects } from './Data';
+
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
