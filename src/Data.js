@@ -16,7 +16,7 @@ export const personalInfo = {
 
 export const stats = [
   { label: "Modern Tech Stack", value: "React & Tailwind" },
-  { label: "Live Production Apps", value: "1+ Deployed" },
+  { label: "Live Production Apps", value: "2+ Deployed" },
   { label: "Responsive Precision", value: "100% Mobile-First" }
 ];
 
@@ -36,6 +36,16 @@ export const skillCategories = [
 ];
 
 export const projects = [
+  {
+    title: "CodeVerse Academy",
+    subtitle: "Interactive Coding & Tech Learning Platform",
+    description: "A modern educational web platform designed to help developers master programming through structured tracks, interactive UI, and responsive layouts across all devices.",
+    tags: ["React", "Tailwind CSS", "Responsive UI", "Vercel"],
+    liveLink: "https://codeverse-hazem.vercel.app/",
+    githubLink: "https://github.com/hazemmourad215-alt/codeverse-academy-",
+    featured: true,
+    accent: "from-purple-500/25 via-fuchsia-600/20 to-indigo-600/25"
+  },
   {
     title: "Nex Store",
     subtitle: "Full-Featured Modern E-Commerce Platform",
